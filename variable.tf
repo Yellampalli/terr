@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "To use AWS region"
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 
 variable "no_of_instances" {
@@ -18,7 +18,7 @@ default = "t2.micro"
 
 variable "key" {
 description = "Server Key file name"
-default = "Sec_key"
+default = "Suri"
 }
 
 variable "bootstrap_path" {
